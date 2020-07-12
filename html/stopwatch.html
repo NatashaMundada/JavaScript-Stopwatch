@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Syopwatch</title>
+	<link rel="stylesheet" type="text/css" href="Stopwatch_style.css">
+</head>
+<body id="body1">
+	<h1>Stopwatch</h1>
+
+	<p id="time"><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span></p>
+
+	<div style="text-align: center; margin: 80px;">
+		<button type="button" id="start_btn" onclick="return start_func();">Start</button>
+		<button type="button" id="stop_btn" onclick="return stop_func();">Stop</button>
+		<button type="button" id="reset_btn" onclick="return reset_func();">Reset</button>	
+		<button type="button" id="lap_btn" onclick="return lap_func();">Lap</button>	
+	</div>
+		
+	<div id="lap">
+
+	</div>
+	<script src="stopwatch_script.js"></script>
+</body>
+</html>
