@@ -1,0 +1,39 @@
+body{
+	background-color: #e6ecff;
+}
+
+h1{
+	margin-top: 30px;
+	text-align: center;
+	color: #003399;
+}
+
+#time{
+	text-align: center;
+	color: #0044cc;
+	font-size: 25px;
+	margin-top: 60px;
+}
+
+#lap{
+	float: left; 
+	margin-top: -100px;
+	padding: 20px;
+}
+
+p{
+	font-size: 20px;
+	color:  #0044cc;
+}
+
+button{
+	background-color: #003399;
+	color: white;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 7px;
+	text-align: center;
+	border-color: #003399; 
+}
